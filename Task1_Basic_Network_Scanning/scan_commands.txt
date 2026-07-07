@@ -1,0 +1,11 @@
+nmap --version
+
+ipconfig
+
+nmap -sV 10.60.253.154
+
+nmap -O 10.60.253.154
+
+nmap -A 10.60.253.154
+
+nmap -A 10.60.253.154 -oN scan_results.txt
